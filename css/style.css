@@ -23,9 +23,10 @@ h1 {
 }
 .nav-red{
     left: -100%;
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 100vh;
+    z-index: 90;
     background-color: red;
   
 }
@@ -76,14 +77,14 @@ h1 {
 }
 
 .nav-btn{
+    margin-left: 22px;
     position: absolute;
     top: 50%;
     left: 0;
+    text-align: left;
     z-index: 100;
-    color: red;
-}
-.nav-btn{
     cursor: pointer;
+    color: red;
 }
 
 .bar1, .bar2, .bar3 {
