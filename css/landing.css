@@ -1,17 +1,31 @@
  body {
-    /* background-image: url(../assets/sexy.jpg); */
-    background-repeat: no-repeat;
+    background-image: url(../assets/red2.jpg);
+    /* background-repeat: no-repeat; */
     background-attachment: fixed;
-    background-position: center;
+    /* background-position: center; */
     min-width: 100%;
     min-height: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
+    /* background-image: url(http://placekitten.com/400/200); */
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    animation: animatedBackground 100s linear infinite alternate;
 
 } 
 
+@keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+
 .sociallinks{
 font-size: 40px;
+line-height: 1.2;
 display: flex;
 flex-direction: column;
 margin-right: 10px;

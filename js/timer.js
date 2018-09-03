@@ -17,7 +17,7 @@ var x = setInterval(function() {
     
     // Output the result in an element with id="demo"
     document.getElementById("demo").innerHTML = days + "days " ;
-    document.querySelector(".hours").innerHTML = hours + "h " + minutes + "Min ";
+    document.querySelector(".hours").innerHTML = hours + "hours " + minutes + "min ";
     document.getElementById("seconds").innerHTML = seconds + "sec";
 
     
