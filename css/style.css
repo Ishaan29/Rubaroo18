@@ -45,8 +45,6 @@ body{
 
     /* display: flex; */
     /* flex-direction: column; */
-
-
 }
 
 .links{
@@ -61,11 +59,7 @@ body{
     line-height: 1;
     margin-top: 0;
     padding:0;
-    
-   
-
-
-    
+    text-transform: uppercase;
    
 }
 .links :hover{
@@ -131,4 +125,33 @@ body{
         position: absolute;
         transform: translate(0 , 50%)
     }
+}
+.first-alpha {
+    font-size: 2vw;
+    text-shadow: 1px 1px red;
+
+}
+
+.one:hover {
+color: #6f84dc;
+}
+
+.two:hover {
+    color: #b43277;
+}
+
+.three:hover {
+    color: #f0a488;
+}
+
+.four:hover {
+    color: #e9a068;
+}
+
+.five:hover {
+    color: rgb(245, 245, 12);
+}
+
+.six:hover {
+    color: greenyellow;
 }

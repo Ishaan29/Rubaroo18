@@ -1,0 +1,59 @@
+html,body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color:white !important;
+}
+
+.flex-container {
+    display: flex;
+    position: absolute;
+}
+
+.img > img{
+    width: 100vw;
+    height: 50vh;
+    opacity: 0.8;
+}
+
+.about-content {
+    line-height: 25px;
+    margin-left: 5vw;     
+    margin-right: 5vw; 
+    color: black;
+    width: 90vw;
+    height: 30vh;
+    background: transparent;
+    position: absolute;
+    z-index: 10;
+    top: 50vh;
+    /* text-align: left; */
+    /* justify-content: left; */
+}
+.about-content  h1 {
+    font-size: 4vw;
+    text-shadow: 2px 2px grey;
+    color: #222222;
+    clear: both;
+    text-align: center !important;
+    font-family: Montserrat;
+    font-weight: bolder;
+}
+
+.about-content p{
+    clear: both;
+    margin: 0;
+    padding: 0;
+    margin-top: 10vh;
+    font-family: montserrat;
+    color: #333333;
+    font-size: 1vw;
+}
+
+h1:hover {
+color:red;
+}
+
+.about-wrapper {
+    /* float: left; */
+}

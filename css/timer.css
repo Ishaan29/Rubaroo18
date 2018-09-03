@@ -4,11 +4,11 @@
     bottom: 5%;
     right: 8%;
     position: absolute;
+    font-family: 'Kosugi Maru', sans-serif; !important;
 }
 #demo {
     color:white;
-    display: flex;
-    flex-direction: column;
+ 
     /* justify-content: center; */
     margin: 0; 
     /* margin-left: 10%; */
